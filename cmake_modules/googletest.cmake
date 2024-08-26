@@ -7,7 +7,7 @@ ExternalProject_Add(
         gtest_src
         PREFIX "extern/gtest"
         GIT_REPOSITORY "https://github.com/google/googletest.git"
-        GIT_TAG "release-1.10.0"
+        GIT_TAG "release-1.11.0"
         TIMEOUT 10
         CMAKE_ARGS
         -DCMAKE_INSTALL_PREFIX=${CMAKE_BINARY_DIR}/extern/gtest
